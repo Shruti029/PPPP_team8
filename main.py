@@ -27,7 +27,8 @@ operation = str(input("Choose operation (+, -):"))
 
 if operation == "+":
     print("Answer:", subtraction(array1, array2))
-    
+
+
 if operation == "-":
     print("Answer:", subtraction(array1, array2)) 
 
