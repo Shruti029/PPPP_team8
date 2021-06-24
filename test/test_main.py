@@ -1,5 +1,6 @@
 import main
 
+
 def test_startApp():
     assert main.startApp() == "Welcome to Matrix calculator!"
 
