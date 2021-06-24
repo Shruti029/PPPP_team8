@@ -6,9 +6,9 @@ Created on Wed Jun 23 20:36:53 2021
 """
 
 from addition import addition
+from division import division
 from multiplication import multiplication
 from subtraction import subtraction
-from division import division
 
 
 def startApp():
