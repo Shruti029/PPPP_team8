@@ -6,8 +6,8 @@ Created on Wed Jun 23 20:36:53 2021
 """
 
 from addition import addition
-from subtraction import subtraction
 from multiplication import multiplication
+from subtraction import subtraction
 
 
 def startApp():
