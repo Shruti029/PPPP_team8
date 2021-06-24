@@ -9,6 +9,7 @@ import numpy as np
 
 
 def multiplication(arr1, arr2):
-    return (np.multiply(arr1, arr2))
+    return np.multiply(arr1, arr2)
+
 
 # print(multiplication([1,2],[2,3]))
