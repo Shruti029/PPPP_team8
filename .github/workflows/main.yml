@@ -5,7 +5,7 @@ on: push
 
 jobs:
   super-lint:
-    name: Lint code base
+    name: Build CI
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -27,5 +27,3 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-
