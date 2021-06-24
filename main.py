@@ -25,10 +25,10 @@ for i in range(row1):
 
 operation = str(input("Choose operation (+, -):"))
 
-if operation == '+':
-    print("Answer:", addition(array1, array2))
+if operation == "+":
+    print("Answer:", subtraction(array1, array2))
     
-if operation == '-':
+if operation == "-":
     print("Answer:", subtraction(array1, array2)) 
 
 
