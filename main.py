@@ -8,6 +8,7 @@ Created on Wed Jun 23 20:36:53 2021
 from addition import addition
 from multiplication import multiplication
 from subtraction import subtraction
+from division import division
 
 
 def startApp():
@@ -29,7 +30,7 @@ for i in range(row1):
     array2.append(int(input("Enter element of Array 2:")))
 
 
-operation = str(input("Choose operation (+, -, *):"))
+operation = str(input("Choose operation (+, -, *, /):"))
 
 if operation == "+":
     print("Answer:", addition(array1, array2))
@@ -41,6 +42,10 @@ if operation == "-":
 
 if operation == "*":
     print("Answer:", multiplication(array1, array2))
+    
+
+if operation == "/":
+    print("Answer:", division(array1, array2))
 
 
 def endApp():
