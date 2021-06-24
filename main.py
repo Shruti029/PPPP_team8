@@ -42,7 +42,7 @@ if operation == "-":
 
 if operation == "*":
     print("Answer:", multiplication(array1, array2))
-    
+
 
 if operation == "/":
     print("Answer:", division(array1, array2))
