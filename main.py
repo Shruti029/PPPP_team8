@@ -8,8 +8,9 @@ Created on Wed Jun 23 20:36:53 2021
 from addition import addition
 from subtraction import subtraction
 
+
 def startApp():
-    return ("Welcome to Matrix calculator!")
+    return "Welcome to Matrix calculator!"
 
 startApp()
 
@@ -36,6 +37,6 @@ if operation == "-":
     print("Answer:", subtraction(array1, array2))
     
 def endApp():
-    return ("Thank you for using Matrix calculator!")
+    return "Thank you for using Matrix calculator!"
 
 endApp()
