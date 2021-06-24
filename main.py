@@ -12,6 +12,7 @@ from subtraction import subtraction
 def startApp():
     return "Welcome to Matrix calculator!"
 
+
 startApp()
 
 row1 = int(input("Enter number of numbers in arrays:"))
@@ -35,8 +36,10 @@ if operation == "+":
 
 if operation == "-":
     print("Answer:", subtraction(array1, array2))
-    
+
+
 def endApp():
     return "Thank you for using Matrix calculator!"
+
 
 endApp()
