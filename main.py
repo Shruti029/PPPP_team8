@@ -21,18 +21,15 @@ for i in range(row1):
 
 for i in range(row1):
     array2.append(int(input("Enter element of Array 2:")))
-    
-    
+
+
 operation = str(input("Choose operation (+, -):"))
 
 if operation == '+':
-    print("Answer:", addition(array1,array2))
+    print("Answer:", addition(array1, array2))
     
 if operation == '-':
-    print("Answer:", subtraction(array1,array2))
-    
-
-    
+    print("Answer:", subtraction(array1, array2)) 
 
 
 
